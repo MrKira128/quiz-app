@@ -1,0 +1,36 @@
+{
+    "questions":[
+        {
+            "question": "What is 15 + 46",
+            "a": "54",
+            "b": "11",
+            "c": "78",
+            "d": "18",
+            "correct": "d"
+        },
+        {
+            "question": "Who is the President of US?",
+            "a": "Florin Pop",
+            "b": "Donald Trump",
+            "c": "Ivan Saldano",
+            "d": "Mihai Andrei",
+            "correct": "b"
+        },
+        {
+            "question": "What does HTML stand for?",
+            "a": "Hypertext Markup Language",
+            "b": "Cascading Style Sheet",
+            "c": "Jason Object Notation",
+            "d": "Helicopters Terminals Motorboats Lamborginis",
+            "correct": "a"
+        },
+        {
+            "question": "What year was JavaScript launched?",
+            "a": "1996",
+            "b": "1995",
+            "c": "1994",
+            "d": "none of the above",
+            "correct": "b"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <div class="quiz-info">
+                <h4>Question <span class="question-no">1</span></h4>
+                <h4 class="score-container"><span class="score">0</span> points</h4>
+            </div>
+            <h2 id="question" class="question">Question text</h2>
+        </div>
+        <div class="options">
+            <div class="choice">
+                <input type="radio" id="a" name="answer" class="answer" />
+                <!-- <span class="">a</span> -->
+                <label id="a_text" for="a">Question</label>
+            </div>
+            <div class="choice">
+                <input type="radio" id="b" name="answer" class="answer" />
+                <!-- <span class="">b</span> -->
+                <label id="b_text" for="b">Question</label>
+            </div>
+            <div class="choice">
+                <input type="radio" id="c" name="answer" class="answer" />
+                <!-- <span class="">c</span> -->
+                <label id="c_text" for="c">Question</label>
+            </div>
+            <div class="choice">
+                <input type="radio" id="d" name="answer" class="answer" />
+                <!-- <span class="">d</span> -->
+                <label id="d_text" for="d">Question</label>
+            </div>
+        </div>
+        <button id="submit">Submit</button>
+      </div>
+</body>
+</html>
